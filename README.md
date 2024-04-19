@@ -11,4 +11,4 @@ Require Python 3.6
 
 ### Run
 
-- Run **main.py** containing all settings.
+- Run **demo.py** containing all settings.
