@@ -25,7 +25,7 @@ if USE_CUDA and torch.cuda.is_available():
 else:
     USE_CUDA = False
     print("CPU activated!")
-direction = '/data/yaoj/mvc_datasets/'
+direction = '/datasets/'
 datasets = {1: '3Source', 2: 'ALOI', 3: 'Caltech101-7', 4: 'Caltech101-20', 5: 'Caltech101-all', 6: 'Caltech101-all',
             7: 'COIL_4view', 8: 'flower17', 9: 'HW', 10: 'HW2', 11: 'MITIndoor', 12: 'MSRC-v1', 13: 'NUS-WIDE',
             14: 'scene15', 15: 'Wikipedia', 16: 'MNIST10k', 17: 'Youtube', 18: 'MNIST30K', }
